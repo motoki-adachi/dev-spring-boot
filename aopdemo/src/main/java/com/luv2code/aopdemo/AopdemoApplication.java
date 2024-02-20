@@ -23,6 +23,6 @@ public class AopdemoApplication {
 
 	private void demoTheBeforeAdvice(AccountDao theAccountDao, MembershipDao theMembershipDao) {
 		theAccountDao.addAccount();
-		theMembershipDao.addAccount();
+		theMembershipDao.addSillyMember();
 	}
 }
