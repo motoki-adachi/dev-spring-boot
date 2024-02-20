@@ -24,8 +24,5 @@ public class AopdemoApplication {
 	private void demoTheBeforeAdvice(AccountDao theAccountDao, MembershipDao theMembershipDao) {
 		theAccountDao.addAccount();
 		theMembershipDao.addAccount();
-		System.out.println("\n Let's call it again!\n");
-		theAccountDao.addAccount();
-		theMembershipDao.addAccount();
 	}
 }
